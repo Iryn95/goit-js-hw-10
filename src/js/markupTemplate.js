@@ -2,7 +2,7 @@ export function countryСardTeemplate({ flags, name, capital, population, langua
   return `
     <div class="country-info__container">
       <div class="country-info__wrapper">
-        <img class="country-info__flags" src="${flags.svg}" alt="${name.official}" width="100" />
+        <img class="country-info__flags" src="${flags.svg}" alt="${name.official}" width="110" />
         <h2 class="country-info__name">${name.official}</h2>
       </div>
       <p class="country-info__capital"><span class="country-info__weight">Capital:</span> ${capital}</p>
